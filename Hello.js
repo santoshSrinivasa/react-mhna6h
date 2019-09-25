@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div>
-      <p>we can pass the method which is present in the parent component to the child component as props and can also access the values sent from child component in the parent component in the parameter of a function </p>
+      <h4>we can pass the method which is present in the parent component to the child component as props and can also access the values sent from child component in the parent component in the parameter of a function </h4>
         <ChildComponent handleClick={this.handleClick}/>
       </div>
     );
